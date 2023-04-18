@@ -1,7 +1,13 @@
-local BaseUiElement = require(script.Parent.BaseUiElement)
-local BaseEntry = require(script.Parent.BaseEntry)
-local BaseContainer = require(script.Parent.Parent.BaseContainer)
-local Config = require(script.Parent.Parent.Config)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+function requi(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/UIElements/"..l..".lua")
+end
+local BaseUiElement = requi("BaseUiElement")
+local BaseEntry = requi("BaseEntry")
+local BaseContainer = requir("BaseContainer")
+local Config = requir("Config")
 
 local TextLabel = {}
 TextLabel.__index = TextLabel
