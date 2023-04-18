@@ -1,20 +1,23 @@
-local TypeEnum = require(script.Parent.TypeEnum)
-local BaseObject = require(script.Parent.BaseObject)
-local BaseContainer = require(script.Parent.BaseContainer)
-local Section = require(script.Parent.Section)
-local Category = require(script.Parent.Category)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+local TypeEnum = requir(TypeEnum)
+local BaseObject = requir(BaseObject)
+local BaseContainer = requir(BaseContainer)
+local Section = requir(Section)
+local Category = requir(Category)
 
 --All required, comment them out if you dont want them!
-local BaseEntry = require(script.Parent.UIElements.BaseEntry)
-local BaseUiElement = require(script.Parent.UIElements.BaseUiElement)
-local Button = require(script.Parent.UIElements.Button)
-local ColorPicker = require(script.Parent.UIElements.ColorPicker)
-local Selector = require(script.Parent.UIElements.Selector)
-local Slider = require(script.Parent.UIElements.Slider)
-local Switch = require(script.Parent.UIElements.Switch)
-local TextBox = require(script.Parent.UIElements.TextBox)
-local TextLabel = require(script.Parent.UIElements.TextLabel)
-local KeyDetector = require(script.Parent.UIElements.KeyDetector)
+local BaseEntry = requir(UIElements.BaseEntry)
+local BaseUiElement = requir(UIElements.BaseUiElement)
+local Button = requir(UIElements.Button)
+local ColorPicker = requir(UIElements.ColorPicker)
+local Selector = requir(UIElements.Selector)
+local Slider = requir(UIElements.Slider)
+local Switch = requir(UIElements.Switch)
+local TextBox = requir(UIElements.TextBox)
+local TextLabel = requir(UIElements.TextLabel)
+local KeyDetector = requir(UIElements.KeyDetector)
 
 local Gui = {}
 Gui.__index = Gui
