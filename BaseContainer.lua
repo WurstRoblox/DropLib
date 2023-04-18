@@ -1,12 +1,12 @@
 function requir(l)
 	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
 end
-local TypeEnum = require("TypeEnum")
-local BaseObject = require("BaseObject")
-local Header = require("Header")
-local Config = require("Config")
+local TypeEnum = requir("TypeEnum")
+local BaseObject = requir("BaseObject")
+local Header = requir("Header")
+local Config = requir("Config")
 
-local BaseEntry = require("UIElements/BaseEntry")
+local BaseEntry = requir("UIElements/BaseEntry")
 
 local BaseContainer = {}
 BaseContainer.__index = BaseContainer
