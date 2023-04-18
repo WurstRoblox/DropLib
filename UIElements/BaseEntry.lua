@@ -1,6 +1,9 @@
-local BaseObject = require(script.Parent.Parent.BaseObject)
-local TypeEnum = require(script.Parent.Parent.TypeEnum)
-local Config = require(script.Parent.Parent.Config)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+local BaseObject = requir("BaseObject")
+local TypeEnum = requir("TypeEnum")
+local Config = requir("Config")
 
 local BaseEntry= {}
 BaseEntry.__index = BaseEntry
