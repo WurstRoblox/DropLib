@@ -1,9 +1,15 @@
-local BaseUiElement = require(script.Parent.BaseUiElement)
-local BaseEntry = require(script.Parent.BaseEntry)
-local BaseContainer = require(script.Parent.Parent.BaseContainer)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+function requi(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/UIElements/"..l..".lua")
+end
+local BaseUiElement = requi("BaseUiElement")
+local BaseEntry = requi("BaseEntry")
+local BaseContainer = requir("BaseContainer")
 local UIS = game:GetService("UserInputService")
-local Config = require(script.Parent.Parent.Config)
-local TextBox = require(script.Parent.TextBox)
+local Config = requir("Config")
+local TextBox = requi("TextBox")
 
 local function FilterForPattern(from,pattern)
 	local valid = {}
