@@ -1,6 +1,9 @@
-local TypeEnum = require(script.Parent.TypeEnum)
-local BaseContainer = require(script.Parent.BaseContainer)
-local Config = require(script.Parent.Config)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+local TypeEnum = requir("TypeEnum")
+local BaseContainer = requir("BaseContainer")
+local Config = requir("Config")
 local UIS = game:GetService("UserInputService")
 
 local Category = {}
