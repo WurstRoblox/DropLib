@@ -2,7 +2,7 @@ function requir(l)
 	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
 end
 local BaseUiElement = requir("UIElements/BaseUiElement")
-local Config = requir(Config)
+local Config = requir("Config")
 
 local CollapseButton = {}
 CollapseButton.__index = CollapseButton
