@@ -1,23 +1,23 @@
 function requir(l)
 	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
 end
-local TypeEnum = requir(TypeEnum)
-local BaseObject = requir(BaseObject)
-local BaseContainer = requir(BaseContainer)
-local Section = requir(Section)
-local Category = requir(Category)
+local TypeEnum = requir("TypeEnum")
+local BaseObject = requir("BaseObject")
+local BaseContainer = requir("BaseContainer")
+local Section = requir("Section")
+local Category = requir("Category")
 
 --All required, comment them out if you dont want them!
-local BaseEntry = requir(UIElements.BaseEntry)
-local BaseUiElement = requir(UIElements.BaseUiElement)
-local Button = requir(UIElements.Button)
-local ColorPicker = requir(UIElements.ColorPicker)
-local Selector = requir(UIElements.Selector)
-local Slider = requir(UIElements.Slider)
-local Switch = requir(UIElements.Switch)
-local TextBox = requir(UIElements.TextBox)
-local TextLabel = requir(UIElements.TextLabel)
-local KeyDetector = requir(UIElements.KeyDetector)
+local BaseEntry = requir("UIElements/BaseEntry")
+local BaseUiElement = requir("UIElements/BaseUiElement")
+local Button = requir("UIElements/Button")
+local ColorPicker = requir("UIElements/ColorPicker")
+local Selector = requir("UIElements/Selector")
+local Slider = requir("UIElements/Slider")
+local Switch = requir("UIElements/Switch")
+local TextBox = requir("UIElements/TextBox")
+local TextLabel = requir("UIElements/TextLabel")
+local KeyDetector = requir("UIElements/KeyDetector")
 
 local Gui = {}
 Gui.__index = Gui
