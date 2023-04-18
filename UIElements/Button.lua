@@ -1,7 +1,10 @@
-local BaseUiElement = require(script.Parent.BaseUiElement)
-local BaseEntry = require(script.Parent.BaseEntry)
-local BaseContainer = require(script.Parent.Parent.BaseContainer)
-local Config = require(script.Parent.Parent.Config)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+local BaseUiElement = requir("UIElements/BaseUiElement")
+local BaseEntry = requir("UIElements/BaseEntry")
+local BaseContainer = requir("BaseContainer")
+local Config = requir("Config")
 
 local Button = {}
 Button.__index = Button
