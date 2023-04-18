@@ -1,7 +1,10 @@
-local TypeEnum = require(script.Parent.TypeEnum)
-local BaseObject = require(script.Parent.BaseObject)
-local CollapseButton = require(script.Parent.CollapseButton)
-local Config = require(script.Parent.Config)
+function requir(l)
+	loadstring(game:HttpGet("https://github.com/WurstRoblox/DropLib/raw/main/"..l..".lua")
+end
+local TypeEnum = requir(TypeEnum)
+local BaseObject = requir(BaseObject)
+local CollapseButton = requir(CollapseButton)
+local Config = requir(Config)
 
 local Header = {}
 Header.__index = Header
